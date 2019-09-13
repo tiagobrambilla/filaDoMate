@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('index', ['nome' => '<b>Tiago</b>']);
+    return view('index', ['nome' => '<b>Tiago <i>:)</i></b>']);
 });
